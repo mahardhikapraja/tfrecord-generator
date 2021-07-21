@@ -1,6 +1,6 @@
-""" Sample TensorFlow XML-to-TFRecord converter
+""" Sample TensorFlow JSON-to-TFRecord converter
 
-usage: generate_tfrecord.py [-h] [-x XML_DIR] [-l LABELS_PATH] [-o OUTPUT_PATH] [-i IMAGE_DIR] [-c CSV_PATH]
+usage: generate_tfrecord_labelme.py [-h] [-x XML_DIR] [-l LABELS_PATH] [-o OUTPUT_PATH] [-i IMAGE_DIR] [-c CSV_PATH] [-s SUMMARY_PATH]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -33,7 +33,7 @@ from collections import namedtuple
 
 # Initiate argument parser
 parser = argparse.ArgumentParser(
-    description="Sample TensorFlow XML-to-TFRecord converter")
+    description="Sample TensorFlow JSON-to-TFRecord converter")
 parser.add_argument("-j",
                     "--json_dir",
                     help="Path to the folder where the input .json files are stored.",
