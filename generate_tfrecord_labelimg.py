@@ -1,5 +1,5 @@
 """ Sample TensorFlow XML-to-TFRecord converter
-usage: generate_tfrecord.py [-h] [-x XML_DIR] [-l LABELS_PATH] [-o OUTPUT_PATH] [-i IMAGE_DIR] [-c CSV_PATH]
+usage: generate_tfrecord_labelimg.py [-h] [-x XML_DIR] [-l LABELS_PATH] [-o OUTPUT_PATH] [-i IMAGE_DIR] [-c CSV_PATH]
 optional arguments:
   -h, --help            show this help message and exit
   -x XML_DIR, --xml_dir XML_DIR
